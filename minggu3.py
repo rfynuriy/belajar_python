@@ -35,8 +35,19 @@ class siswa:
 
 siswa1 = siswa("", [])
 
-siswa1.un = input("siapa namamu: ")
-siswa1.nill = [int(x) for x in input("berapa nilaimu [bindo, mtk, bing] (pisahkan degnan spasi): ").split()]
+#siswa1.un = input("siapa namamu: ")
+#siswa1.nill = [int(x) for x in input("berapa nilaimu [bindo, mtk, bing] (pisahkan degnan spasi): ").split()]
 
-print(f"rata ratamu adalah -{siswa1.hitung_rata_rata()}")
-siswa1.pennentuan_kelululusan()
+#print(f"rata ratamu adalah -{siswa1.hitung_rata_rata()}")
+#siswa1.pennentuan_kelululusan()
+
+
+def sapa(nama, kesukaan):
+    print(f"ihh samaa kita {nama}, aku juga suka {kesukaan} tauk")
+
+x = input("haii siapa namamu: ")
+y = input(f"kalo hobimu apa {x}: ")
+sapa(x, y)
+
+nama, umur = "rafi", 12
+print(nama, umur)
