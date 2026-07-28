@@ -11,7 +11,7 @@ except ZeroDivisionError:
 
 #"""
 
-print (hasil = "")
+hasil = ""
 try:
     angka1 = int(input("hello masukan angka pertama: "))
     angka2 = int(input("masukkan angka kedua: "))
