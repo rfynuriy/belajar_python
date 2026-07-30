@@ -4,7 +4,7 @@
 #            self.u = umur
 
 #x = Complex("rafi", 20)
-#x2 = Complex("anne", 20)
+#x2 = Complex("anisa", 20)
 #    print(x.n, x.u)
 #    print(x.n, x2.n)
 
@@ -35,11 +35,11 @@ class siswa:
 
 siswa1 = siswa("", [])
 
-#siswa1.un = input("siapa namamu: ")
-#siswa1.nill = [int(x) for x in input("berapa nilaimu [bindo, mtk, bing] (pisahkan degnan spasi): ").split()]
+siswa1.un = input("siapa namamu: ")
+siswa1.nill = [int(x) for x in input("berapa nilaimu [bindo, mtk, bing] (pisahkan degnan spasi): ").split()]
 
-#print(f"rata ratamu adalah -{siswa1.hitung_rata_rata()}")
-#siswa1.pennentuan_kelululusan()
+print(f"rata ratamu adalah: {siswa1.hitung_rata_rata()}")
+siswa1.pennentuan_kelululusan()
 
 
 def sapa(nama, kesukaan):
