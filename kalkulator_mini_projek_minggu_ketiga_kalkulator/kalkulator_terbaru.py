@@ -60,7 +60,6 @@ while True:
             break
         if pilihan == "00":
             print(f"\nriwayat: \n\n{masuk.baca_riwyat()}")
-            break
         if pilihan in ("1", "2", "3", "4"):
             angka1 =  int(input(f"masukkan angka pertama: "))
             angka2 = int(input(f"masukan angka kedua: "))
